@@ -3,28 +3,28 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-## Description 
+## Description: 
 ${data.description}
 
-## Installation
+## Installation:
 ${data.Installation}
 
-## Usage Info
+## Usage Info:
 ${data.Usage}
-## Contributing guidelines
+## Contributing guidelines:
 ${data.Contributions}
-## Test Instructions
+## Test Instructions:
 ${data.Tests}
 ## Questions
     Contact Info:
     email:${data.Email}
     [link to Github!](http://github.com/${data.Github})
 
-## License 
+## License :
 ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 
- [link to screen recording!](https://drive.google.com/file/d/1siGBsFGuUpfLRf_ASobjg0DF1nhZJLBD/view)`
+ [Link to screen recording!](https://drive.google.com/file/d/1siGBsFGuUpfLRf_ASobjg0DF1nhZJLBD/view)`
 
 }
 
